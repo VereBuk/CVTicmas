@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(247, 246, 246);
+    font-family: 'Raleway', sans-serif;
+    }
+
+  #card_user_photo {
+    width: 40%;
+    border-radius: 50%;
+    border-style:solid;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 7% ;
+    }
+p{
+    font-size:medium;
+}
+.container-flex {
+    display: flex;
+    justify-content: space-between; /* distribuye las columnas equitativamente */
+    }
+
+.columna {
+    height: 100vh;
+    background-color:rgb(255, 107, 248);
+    }
+  
+h5 {
+    font-weight: bold;
+}
+
+/**
+.col-sm {
+  margin-top: 3%;
+} */ 
+
+#boton-descripcion {
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
